@@ -1,0 +1,960 @@
+body {
+  background: url("img/Background.jpg") no-repeat center center;
+  background-size: cover; }
+
+/*========button======*/
+#button .container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 165px;
+  height: 0 auto;
+  margin-left: 1020px;
+  margin-top: 25px;
+  text-align: right; }
+  #button .container .btn-facebook {
+    color: #3B5998;
+    font-size: 35px;
+    padding: 2px; }
+  #button .container .btn-twitter {
+    color: #52B5DC;
+    font-size: 35px;
+    padding: 2px; }
+  #button .container .btn-youtube {
+    color: red;
+    font-size: 35px;
+    padding: 2px; }
+  #button .container .btn-instagram {
+    color: #A82740;
+    font-size: 35px;
+    padding: 2px; }
+
+/*=======plug==========*/
+#plug {
+  min-height: 100vh; }
+  #plug .container {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 50%;
+    margin-bottom: 40px;
+    height: 0 auto; }
+    #plug .container .intro-text .header-img img {
+      margin-top: 40px;
+      overflow: hidden; }
+    #plug .container .intro-text h1 {
+      font-weight: 600;
+      color: #fff;
+      letter-spacing: 1px;
+      padding-bottom: 20px; }
+    #plug .container .intro-text p {
+      color: #fff;
+      padding-bottom: 30px;
+      line-height: 1.5; }
+
+/*@Media Queries--------------------*/
+@media all and (max-width: 1920px) {
+  #plug .container {
+    width: 49%;
+    margin-left: 150px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 30px; }
+    #plug .container p {
+      font-size: 21px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 122px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -89px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    font-size: 25px;
+    margin-left: 1060px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 1355px) {
+  #plug .container {
+    width: 49%;
+    margin-left: 115px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 30px; }
+    #plug .container p {
+      font-size: 21px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 122px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -89px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    font-size: 25px;
+    margin-left: 960px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 1335px) {
+  #plug .container {
+    width: 50%;
+    margin-left: 150px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 30px; }
+    #plug .container p {
+      font-size: 21px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 122px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -89px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    font-size: 25px;
+    margin-left: 1040px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 1280px) {
+  #plug .container {
+    width: 52%;
+    margin-left: 90px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 30px; }
+    #plug .container p {
+      font-size: 22px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 135px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 27px;
+      margin-left: -80px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 1000px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 1024px) {
+  #plug .container {
+    width: 66%;
+    margin-left: 20px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 140px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 27px;
+      margin-left: -80px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 750px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 980px) {
+  #plug .container {
+    width: 68%;
+    margin-left: 20px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 137px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -78px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 720px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 800px) {
+  #plug .container {
+    width: 83%;
+    margin-left: 65px;
+    margin-bottom: 40px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 29px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 130px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -82px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 300px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 768px) {
+  #plug .container {
+    width: 87%;
+    margin-left: 47px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 29px;
+      word-spacing: 0; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 130px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: 28px;
+      margin-left: -84px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 28px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 280px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 736px) {
+  #plug .container {
+    width: 91%;
+    margin-left: 30px; }
+    #plug .container .intro-text {
+      padding: 20px 60px; }
+    #plug .container h1 {
+      font-size: 29px;
+      word-spacing: 0; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        padding-left: 10px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 150px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -21px;
+      margin-left: 208px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 26px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 280px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 667px) {
+  #plug .container {
+    width: 93%;
+    margin-left: 22px; }
+    #plug .container .intro-text {
+      padding: 20px 37px; }
+    #plug .container h1 {
+      font-size: 28px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 245px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 0px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 7px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 145px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -21px;
+      margin-left: 203px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 190px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 600px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0; }
+    #plug .container .intro-text {
+      padding: 20px 41px; }
+    #plug .container h1 {
+      font-size: 28px; }
+    #plug .container p {
+      font-size: 20px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 233px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 5px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 135px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -21px;
+      margin-left: 192px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 26px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 170px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 568px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0; }
+    #plug .container .intro-text {
+      padding: 20px 13px; }
+    #plug .container h1 {
+      font-size: 28px; }
+    #plug .container p {
+      font-size: 21px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 235px 7px 4px;
+        border-radius: 2.1px;
+        border: none; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 5px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 135px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -21px;
+      margin-left: 193px; }
+      #plug .container .footer-text h3 {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 27px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 170px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 414px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0; }
+    #plug .container .intro-text {
+      padding: 20px 15px; }
+    #plug .container h1 {
+      font-size: 21px; }
+    #plug .container p {
+      font-size: 18px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 209px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 147px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 62px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -24px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 26px;
+        margin-top: 0;
+        margin-left: 121px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 90px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 384px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0; }
+    #plug .container .intro-text {
+      padding: 20px 30px; }
+    #plug .container h1 {
+      font-size: 17px; }
+    #plug .container p {
+      font-size: 16px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 157px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 122px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      padding-left: 62px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -15px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 18px;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 121px;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 80px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 375px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0; }
+    #plug .container .intro-text {
+      padding: 20px 22px; }
+    #plug .container h1 {
+      font-size: 17px; }
+    #plug .container p {
+      font-size: 16px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 158px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 122px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      margin-left: 9px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -18px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 23px;
+        margin-top: 0;
+        margin-left: 128px;
+        color: #fff;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 70px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 360px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0px; }
+    #plug .container .intro-text {
+      padding: 20px 17px; }
+    #plug .container p {
+      font-size: 16px; }
+    #plug .container h1 {
+      font-size: 17px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 150px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 118px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      margin-left: 7px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -19px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 22px;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 128px;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 70px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 320px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0px; }
+    #plug .container .intro-text {
+      padding: 20px 15px; }
+    #plug .container h1 {
+      font-size: 15px; }
+    #plug .container p {
+      font-size: 14px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 115px 7px 4px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 101px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      margin-left: 2px; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -15px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 18px;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 123px;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 50px;
+    margin-bottom: 20px; } }
+
+@media all and (max-width: 240px) {
+  #plug .container {
+    width: 100%;
+    margin-left: 0px; }
+    #plug .container .intro-text {
+      padding: 20px 15px; }
+    #plug .container h1 {
+      font-size: 17px; }
+    #plug .container p {
+      font-size: 14px; }
+    #plug .container form {
+      padding-bottom: 20px; }
+      #plug .container form .intro-mail {
+        padding: 7px 40px 7px 1px;
+        border-radius: 2.1px;
+        border: none;
+        margin-bottom: 10px; }
+      #plug .container form .intro-submit {
+        background: #18BC9C;
+        padding: 3px 4px;
+        border-radius: 2.1px;
+        border-color: #18BC9C;
+        border: none;
+        color: #fff; }
+      #plug .container form .btn {
+        margin-bottom: 2px;
+        padding: 7px 61px;
+        border: none;
+        font-size: 14px;
+        background: #18BC9C;
+        border-radius: 2px;
+        border-color: #18BC9C;
+        color: #fff; }
+    #plug .container .footer-img {
+      margin-left: 0px;
+      padding-left: 0; }
+    #plug .container .footer-text {
+      padding-left: 0px;
+      margin-top: -13px;
+      margin-left: 0px; }
+      #plug .container .footer-text h3 {
+        font-size: 16px;
+        color: #fff;
+        margin-top: 0;
+        margin-left: 60px;
+        font-weight: 600;
+        margin-bottom: 60px; }
+  #button .container {
+    width: 230px;
+    margin-left: 5px;
+    margin-bottom: 20px; } }
+
+/*End @Media Queries-------------*/
